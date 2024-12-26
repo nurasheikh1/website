@@ -1,0 +1,411 @@
+.container {
+    width: 100vw; 
+    height: auto;
+}
+
+section {
+    position: relative; 
+}
+
+body {
+    background-color: black;
+    margin: 0; 
+   padding: 0; 
+   color: black; 
+}
+
+
+h1 {
+    font-family: 'Cinzel';
+    font-size: 3em;
+    font-weight: 300;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-65%);
+}
+
+
+h2 {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    left: -3%;
+    transform: translateX(-50%); 
+    top: 32px;
+}
+
+
+
+h4 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+}
+
+
+.navigation {
+    width: 100%;
+    height: 40px;
+    background: white;
+    position: fixed; 
+    z-index: 1; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    display: flex;          
+    justify-content: center;
+    flex-grow: 1; 
+}
+
+.center ul {
+    display: flex;                  
+    gap: 80px;               
+    list-style: none;        
+    margin: 0;              
+    padding: 0; 
+}
+
+
+ul {
+    list-style: none; 
+    margin-top: 10px;
+    font-size: 1.0em;
+}
+
+a {
+    text-decoration: none;   
+    color: black;           
+    font-size: 1.2em;       
+}
+
+li:last-child { 
+    float: left; 
+    margin-left: 0px;
+}
+
+.home { 
+    width: 100vw; 
+    height: 100vh; 
+    background: black;
+}
+
+.pic1 {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    opacity: 1;
+    animation: blinks infinite 3s steps(1);
+}
+
+.home div {
+    width: 261px;
+    height: 130px;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.home div p {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    color: white;
+}
+
+.home img {
+    position: relative;
+    left: 30px;
+    width: 200px;
+    height: auto;
+}
+
+.shift_camp {
+    top: -55px;
+}
+
+.pic2 {
+    width: 100px;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    opacity: 1;
+    animation: blinks infinite 3s steps(1);
+}
+
+.shift_men {
+    top: -95px;
+}
+
+.pic3 {
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 100px;
+    top: 600px;
+    opacity: 1;
+    animation: blinks infinite 3s steps(1);
+}
+
+.shift_kuff {
+    top: -55px;
+}
+
+.pic4 {
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 1300px;
+    top: 100px;
+    opacity: 1;
+    animation: blinks infinite 3s steps(1);
+}
+
+.shift_dome {
+    top: -55px;
+}
+
+.pic5 {
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 1100px;
+    top: 350px;
+    opacity: 1;
+    animation: blinks infinite 3s steps(1);
+}
+
+.shift_blue {
+    top: -55px;
+}
+
+.pic6 {
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 1300px;
+    top: 600px;
+    opacity: 1;
+    animation: blinks infinite 3s steps(1);
+}
+
+.shift_melo {
+    top: -65px;
+}
+
+@keyframes blinks {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    75% { opactity: 0.5 }
+    100% { opacity: 1; }
+}
+
+
+.one {
+    width: 1000px; 
+    height: 200vh;
+    background: black;
+    margin: auto;
+}
+
+.one h3 {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    left: 0%;
+    transform: translateX(-50%); 
+}
+
+.container1 {
+    width:100vw;
+    height: 100vh;
+
+}
+.title {
+    font-family: 'Cinzel';
+    font-size: 3em;
+    font-weight: 300;
+    color: #6b6b6b;
+    position: relative;
+    right: 675px;
+    top: 0px;
+    letter-spacing: 0.3px;
+}
+
+.title2 {
+    font-family: 'Cinzel';
+    font-size: 3em;
+    font-weight: 300;
+    color: #6b6b6b;
+    position: relative;
+    right: 675px;
+    top: 60px;
+    letter-spacing: 0.3px;
+}
+
+.title3 {
+    font-family: 'Cinzel';
+    font-size: 3em;
+    font-weight: 300;
+    color: #6b6b6b;
+    position: relative;
+    right: 675px;
+    top: 110px;
+    letter-spacing: 0.3px;
+}
+
+.text {
+    font-family: 'Tiro Bangla';
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    width: 700px;
+    margin: auto;
+    margin-top: 60px;
+    position: relative;
+    left: -650px;
+    top: 200px;
+}
+
+
+.tickets {
+    width: 15%;
+    text-align: center;
+}
+
+.tickets h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+}
+
+.time-slots {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    left: 650px;
+    top: -650px;
+}
+
+.time-slots button {
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.time-slots button:hover {
+    background-color: #0E0ECB;
+}
+
+.choose {
+    margin-top: 30px;
+    position: absolute;
+    left: 1050px;
+    top: 265px;
+}
+
+.choose button {
+    background-color: transparent;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+
+.choose button:hover {
+    background-color: #0E0ECB;
+    border-radius: 5px;
+}
+
+ 
+.four  { 
+    width: 100vw; 
+    height: 100vh; 
+    background: black;
+}
+
+
+footer {
+  background-color: #000; 
+  color: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  position: absolute;
+  left: 10px;
+}
+
+.footer-section, .footer-section2 {
+  margin-bottom: 20px;
+}
+
+.footer-section h4, .footer-section2 h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff; /* White text */
+  font-weight: bold;
+}
+
+.footer-section ul, .footer-section2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Ensure no default margin */
+}
+
+.footer-section ul li, .footer-section2 ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a, .footer-section2 ul li a {
+  color: #fff; /* White text */
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover, .footer-section2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section a:hover, .footer-section2 a:hover {
+  text-decoration: underline;
+}
+
+.footer-section2 p, .footer-section2 a {
+  color: #fff; 
+}
+
+
+
+
+
+
+
+
+
+

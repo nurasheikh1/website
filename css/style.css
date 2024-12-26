@@ -1,0 +1,793 @@
+.container {
+	width: 100vw; 
+	height: auto;
+}
+
+section {
+	position: relative; 
+}
+
+body {
+    background-color: black;
+    margin: 0; 
+   padding: 0; 
+   color: white; 
+}
+
+h1 {
+    font-family: 'Cinzel';
+    font-size: 3em;
+    font-weight: 300;
+	color: white;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-65%);
+}
+
+h2 {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: -3%;
+	transform: translateX(-50%); 
+	top: 32px;
+}
+
+
+
+h4 {
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 40px;
+
+}
+
+
+.navigation {
+	width: 100%;
+	height: 40px;
+	background: white;
+	position: fixed; 
+	z-index: 1; 
+	display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+	display: flex;          
+    justify-content: center;
+    flex-grow: 1; 
+}
+
+.center ul {
+	display: flex;          		
+    gap: 80px;               
+    list-style: none;        
+    margin: 0;              
+    padding: 0; 
+}
+
+
+ul {
+	list-style: none; 
+	margin-top: 10px;
+	font-size: 1.0em;
+}
+
+a {
+    text-decoration: none;   
+    color: black;            
+    font-size: 1.2em;       
+}
+
+li:last-child { 
+	float: left; 
+	margin-left: 0px;
+}
+
+
+.home { 
+	width: 100vw; 
+	height: 100vh; 
+	background: black;
+}
+
+.home .button {
+	display: inline-block;
+    padding: 15px 65px;
+    background-color: #0000FF; 
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 40px 60px rgba(0, 0, 255, 0.2);
+    transition: all 0.3s ease;
+    margin-top: 20px; 
+    z-index: 10; 
+    position: absolute; 
+    bottom: 100px; 
+    left: 50%; 
+}
+
+
+.pic3 {
+	width: 100px;
+	position: absolute;
+	left: 400px;
+	top: 200px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.home div {
+	width: 261px;
+	height: 130px;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+.home div p {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	color: white;
+}
+
+.home img {
+	position: relative;
+	left: 30px;
+	width: 200px;
+	height: auto;
+}
+
+.shift_art {
+	top: -55px;
+}
+
+.pic1 {
+	width: 100px;
+	position: absolute;
+	left: 50px;
+	top: 70px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_masjid {
+	top: -15px;
+}
+
+.pic2 {
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 500px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_hand {
+	top: -55px;
+}
+
+.pic4 {
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 600px;
+	top: 500px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_boy {
+	top: -95px;
+}
+
+.pic5 {
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 1000px;
+	top: 200px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_plant {
+	top: -105px;
+}
+
+.pic6 {
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 1100px;
+	top: 550px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_house {
+	top: -40px;
+}
+
+.pic7 {
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 1400px;
+	top: 350px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_pray {
+	top: -55px;
+}
+
+
+.pic8 {
+	width: 200px;
+	display: block;
+	position: absolute;
+	left: 1400px;
+	top: 100px;
+	opacity: 1;
+	animation: blinks infinite 3s steps(1);
+}
+
+.shift_fajr {
+	top: -70px;
+}
+
+
+@keyframes blinks {
+	0% { opacity: 1; }
+	50% { opacity: 0; }
+	75% { opactity: 0.5 }
+	100% { opacity: 1; }
+}
+
+.one {
+	width: 1000px; 
+	height: 100vh;
+	background: black;
+	margin: auto;
+}
+
+@font-face {
+	src:url(../fonts/Cinzel-VariableFont_wght.ttf) format('truetype');
+	font-family: 'Cinzel';
+} 
+
+@font-face {
+	src:url(../fonts/TiroBangla-Regular.ttf) format('truetype');
+	font-family: 'Tiro Bangla Regular';
+} 
+
+
+.card {
+    width: 300px;
+    height: 475px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    top: 120px;
+    left: -478px;
+    color: white;
+    margin: 20px auto;
+    box-shadow: 20 4px 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    background: url("../images/IMG_5126.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute; 
+    top: 0px;
+    left: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 225px;
+    width: 270px;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+    position: absolute; 
+    top: 275px; 
+    left: 20px;
+    width: calc(100% - 40px); 
+}
+
+
+.card-content h3 {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 2.0em;
+    margin: 10px 0;
+    font-weight: 200;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.card-content p {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 0.8em;
+    margin: 5px 0;
+    margin-top: 5px;
+    color: #cfcfcf; 
+    position: absolute;
+    top: 50px;
+    left: 65px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 65px;
+    background-color: #0000FF; 
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: regular;
+    box-shadow: 0 40px 60px rgba(0, 0, 255, 0.2);
+    transition: all 0.3s ease;
+    position: absolute; 
+    bottom: -130px; 
+    left: 44%;
+    transform: translateX(-50%); 
+}
+
+.card2 {
+	width: 300px;
+    height: 475px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    top: -375px;
+    left: 10px;
+    color: white;
+    margin: 20px auto;
+    box-shadow: 20 4px 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-image2 {
+    background: url("../images/IMG_4969.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute; 
+    top: 0px;
+    left: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 225px;
+    width: 270px;
+}
+
+.card-content2 {
+    padding: 20px;
+    text-align: center;
+    position: absolute; 
+    top: 275px; 
+    left: 20px;
+    width: calc(100% - 40px); 
+}
+
+
+.card-content2 h3 {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 2.0em;
+    margin: 10px 0;
+    font-weight: 200;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.card-content2 p {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 0.8em;
+    margin: 5px 0;
+    margin-top: 5px;
+    color: #cfcfcf; 
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.card3 {
+	width: 300px;
+    height: 475px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    top: -870px;
+    left: 500px;
+    color: white;
+    margin: 20px auto;
+    box-shadow: 20 4px 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-image3 {
+    background: url("../images/IMG_4962.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute; 
+    top: 0px;
+    left: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 225px;
+    width: 270px;
+}
+
+.card-content3 {
+    padding: 20px;
+    text-align: center;
+    position: absolute; 
+    top: 275px; 
+    left: 20px;
+    width: calc(100% - 40px); 
+}
+
+
+.card-content3 h3 {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 2.0em;
+    margin: 10px 0;
+    font-weight: 200;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.card-content3 p {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 0.8em;
+    margin: 5px 0;
+    margin-top: 5px;
+    color: #cfcfcf; 
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+
+.button:hover {
+    transform: translateX(-50%) translateY(-10px); 
+    box-shadow: 0 40px 80px rgba(0, 0, 255, 0.4); 
+}
+
+
+.two {
+	width: 1000px;
+	height: 100vh;
+	background: black;
+	margin: auto;
+}
+
+.two h2 {
+	font-size: 2em;
+	color: white;
+	position: absolute;
+	left: 0%;
+	transform: translateX(-50%); 
+}
+
+.links {
+    text-align: center; 
+    margin-bottom: 1rem; 
+    font-size: 1.5rem;
+}
+
+.links .originals {
+    text-decoration: none; 
+    color: white; 
+    margin: 0 2rem; 
+    font-weight: regular;
+    position: absolute; 
+    left: -15%;
+	top: 300px;
+}
+
+.links .prints {
+	text-decoration: none; 
+    color: white; 
+    margin: 0 2rem; 
+    font-weight: regular;
+    position: absolute; 
+    left: -15%;
+	top: 200px;
+}
+
+
+.links .originals:hover, .links .prints:hover {
+    text-decoration: underline;
+    color: #0000FF; 
+}
+
+.two p {
+	max-width: 500px;
+	font-size: 1.2em;
+	color: white;
+	position: absolute;
+	left: 31%;
+	top: 475px;
+	transform: translateX(-87%); 
+}
+
+.card4 {
+	width: 300px;
+    height: 475px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    top: 150px;
+    left: 200px;
+    color: white;
+    margin: 20px auto;
+    box-shadow: 20 4px 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-image4 {
+    background: url("../images/IMG_4965.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute; 
+    top: 0px;
+    left: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 225px;
+    width: 270px;
+}
+
+.card-content4 {
+    padding: 20px;
+    text-align: center;
+    position: absolute; 
+    top: 275px; 
+    left: 20px;
+    width: calc(100% - 40px); 
+}
+
+.card-content4 h3 {
+  position: absolute;
+  top: -20px; 
+  right: -20px; 
+  font-family: 'Tiro Bangla Regular';
+  font-size: 2.0em;
+  margin: 10px 0;
+  margin-top: 5px;
+  font-weight: 200;
+}
+
+.card-content4 p {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 0.8em;
+    margin: 5px 0;
+    margin-top: 5px;
+    color: #cfcfcf; 
+    position: absolute;
+    top: 30px;
+    left: 17px;
+}
+
+.card5 {
+	width: 300px;
+    height: 475px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    position: relative; 
+    top: -345px;
+    left: 600px;
+    color: white;
+    margin: 20px auto;
+    box-shadow: 20 4px 50px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-image5 {
+    background: url("../images/IMG_4968.jpg") no-repeat center;
+    background-size: cover;
+    position: absolute; 
+    top: 0px;
+    left: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 225px;
+    width: 270px;
+}
+
+.card-content5 {
+    padding: 20px;
+    text-align: center;
+    position: absolute; 
+    top: 275px; 
+    left: 20px;
+    width: calc(100% - 40px); 
+}
+
+.card-content5 h3 {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 2.0em;
+    margin: 10px 0;
+    font-weight: 200;
+    position: absolute;
+    top: -20px;
+    left: 70px;
+}
+
+.card-content5 p {
+    font-family: 'Tiro Bangla Regular'; 
+    font-size: 0.8em;
+    margin: 5px 0;
+    margin-top: 5px;
+    color: #cfcfcf; 
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+
+
+.three {
+	width: 1000px;
+	height: 600px;
+	background: black;
+	margin: auto;
+}
+
+.three {
+  background-color: black; 
+  color: white; 
+  padding: 2em;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.three h2 {
+  font-size: 2.0em;
+  margin: 0;
+  color: white;
+  position: absolute;
+  left: 8%;
+  transform: translateX(-50%); 
+}
+
+.three h3 {
+  font-family: 'Tiro Bangla';
+  font-size: 1.0em;
+  position: absolute;
+  margin-top: 10px;
+  top: 10%;
+  left: -8%;
+  font-weight: normal;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 1em; 
+}
+
+
+.faq-btn {
+  position: absolute;
+  top: 50%; 
+  right: 5%; 
+  transform: translateY(-650%);
+  padding: 15px 65px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.faq-btn:hover {
+  background-color: darkblue;
+}
+
+.contact-btn {
+  position: absolute;
+  top: 60%; 
+  right: -15%; 
+  transform: translateY(-765%);
+  padding: 15px 50px;
+  background-color: white;
+  color: black;
+  border: 1px solid blue;
+  border-radius: 0.5em;
+}
+
+.contact-btn:hover {
+  background-color: lightgray;
+}
+
+footer {
+  background-color: #000; 
+  color: #fff; 
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  position: absolute;
+  left: 275px;
+  bottom: -2300px;
+  z-index: 1;
+}
+
+
+.footer-section, .footer-section2 {
+  margin-bottom: 20px;
+}
+
+.footer-section h4, .footer-section2 h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff; 
+  font-weight: bold;
+}
+
+.footer-section ul, .footer-section2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.footer-section ul li, .footer-section2 ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a, .footer-section2 ul li a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover, .footer-section2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-section a:hover, .footer-section2 a:hover {
+  text-decoration: underline;
+}
+
+.footer-section2 p, .footer-section2 a {
+  color: #fff; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
